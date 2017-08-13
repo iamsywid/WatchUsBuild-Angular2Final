@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng github-pages:deploy"
   },
   "private": true,
   "homepage": "https://codeschool.github.io/WatchUsBuild-Angular2Final/",
