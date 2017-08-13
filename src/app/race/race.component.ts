@@ -1,12 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-race',
+  selector: 'race',
   templateUrl: './race.component.html',
   styleUrls: ['./race.component.css']
 })
 export class RaceComponent implements OnInit {
 
+  @Input() race;
+  
   constructor() { }
 
   ngOnInit() {
